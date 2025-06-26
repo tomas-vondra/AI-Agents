@@ -94,6 +94,8 @@ def get_completion_from_messages(messages, model="gpt-4o"):
         function_to_call = available_functions[function_name]
         function_response = function_to_call(**function_args)
 
+        print(function_response)
+
         messages.append({
             "role": "assistant",
             "tool_calls": [
@@ -118,6 +120,8 @@ def get_completion_from_messages(messages, model="gpt-4o"):
         second_response = client.chat.completions.create(
             model=model,
             messages=messages,
+            tools=tools,  
+            tool_choice="auto"  
         )
         final_answer = second_response.choices[0].message
 
