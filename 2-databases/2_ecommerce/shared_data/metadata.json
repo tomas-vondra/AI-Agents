@@ -1,0 +1,31 @@
+[
+  {
+    "generated_at": "2025-06-30T11:49:57.351635",
+    "counts": {
+      "products": 55,
+      "users": 8,
+      "orders": 23,
+      "reviews": 202,
+      "new_products": 30,
+      "new_users": 1,
+      "new_orders": 5,
+      "new_reviews": 116
+    },
+    "generator_config": {
+      "mode": "enhance",
+      "num_new_products": 30,
+      "num_new_users": 1,
+      "orders_per_user_range": [
+        0,
+        5
+      ],
+      "reviews_per_product_range": [
+        0,
+        10
+      ],
+      "use_llm": true,
+      "use_stable_diffusion": true,
+      "use_minio": true
+    }
+  }
+]
