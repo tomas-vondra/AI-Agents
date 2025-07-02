@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "email": "erin.roberts@hotmail.com",
+    "username": "erin3185",
+    "first_name": "Erin",
+    "last_name": "Roberts",
+    "phone": "896-504-4936x36044",
+    "date_of_birth": "1998-10-03",
+    "gender": "female",
+    "is_active": false,
+    "is_premium": false,
+    "email_verified": true,
+    "registration_date": "2025-05-03 23:43:21.039068",
+    "last_login": "2025-06-03 18:51:21.763437",
+    "shipping_address": {
+      "street": "275 Ortiz Unions Apt. 747",
+      "city": "West Steve",
+      "state": "Mississippi",
+      "postal_code": "89531",
+      "country": "LU",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "275 Ortiz Unions Apt. 747",
+      "city": "West Steve",
+      "state": "Mississippi",
+      "postal_code": "89531",
+      "country": "LU",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": false,
+      "marketing_emails": false,
+      "preferred_categories": [
+        "Electronics"
+      ],
+      "language": "en",
+      "currency": "GBP",
+      "notifications": {
+        "order_updates": true,
+        "price_drops": true,
+        "new_arrivals": true
+      }
+    },
+    "stats": {
+      "orders_count": 19,
+      "total_spent": 2075.54,
+      "average_order_value": 109.24,
+      "last_login": "2025-06-03 18:51:21.763437",
+      "login_count": 65,
+      "wishlist_items": 19,
+      "cart_items": 1
+    },
+    "loyalty_points": 241,
+    "referral_code": "REF000001",
+    "created_at": "2025-05-03 23:43:21.039068",
+    "updated_at": "2025-06-19 09:51:33.137062"
+  },
+  {
+    "id": 2,
+    "email": "anthony.vasquez@hotmail.com",
+    "username": "anthony6200",
+    "first_name": "Anthony",
+    "last_name": "Vasquez",
+    "phone": "(454)496-5546x2878",
+    "date_of_birth": "1990-11-11",
+    "gender": "male",
+    "is_active": true,
+    "is_premium": false,
+    "email_verified": false,
+    "registration_date": "2025-05-20 19:36:38.544311",
+    "last_login": "2025-06-05 21:44:05.970975",
+    "shipping_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": true,
+      "marketing_emails": true,
+      "preferred_categories": [
+        "Books",
+        "Clothing",
+        "Electronics"
+      ],
+      "language": "en",
+      "currency": "USD",
+      "notifications": {
+        "order_updates": true,
+        "price_drops": true,
+        "new_arrivals": false
+      }
+    },
+    "stats": {
+      "orders_count": 12,
+      "total_spent": 1954.56,
+      "average_order_value": 162.88,
+      "last_login": "2025-06-05 21:44:05.970975",
+      "login_count": 36,
+      "wishlist_items": 0,
+      "cart_items": 5
+    },
+    "loyalty_points": 355,
+    "referral_code": "REF000002",
+    "created_at": "2025-05-20 19:36:38.544311",
+    "updated_at": "2025-06-21 07:59:16.526010"
+  },
+  {
+    "id": 3,
+    "email": "david.jones@hotmail.com",
+    "username": "david8850",
+    "first_name": "David",
+    "last_name": "Jones",
+    "phone": "+1-675-550-6250",
+    "date_of_birth": "1978-03-31",
+    "gender": "male",
+    "is_active": true,
+    "is_premium": true,
+    "email_verified": false,
+    "registration_date": "2023-08-20 09:00:32.524549",
+    "last_login": "2025-06-01 16:37:06.297350",
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": false,
+      "marketing_emails": false,
+      "preferred_categories": [
+        "Home & Garden",
+        "Books",
+        "Electronics"
+      ],
+      "language": "es",
+      "currency": "EUR",
+      "notifications": {
+        "order_updates": true,
+        "price_drops": false,
+        "new_arrivals": true
+      }
+    },
+    "stats": {
+      "orders_count": 39,
+      "total_spent": 3238.01,
+      "average_order_value": 83.03,
+      "last_login": "2025-06-01 16:37:06.297350",
+      "login_count": 77,
+      "wishlist_items": 15,
+      "cart_items": 0
+    },
+    "loyalty_points": 2259,
+    "referral_code": "REF000003",
+    "created_at": "2023-08-20 09:00:32.524549",
+    "updated_at": "2025-06-21 23:13:23.417555"
+  },
+  {
+    "id": 4,
+    "email": "george.lee@yahoo.com",
+    "username": "george711",
+    "first_name": "George",
+    "last_name": "Lee",
+    "phone": "(296)515-3257",
+    "date_of_birth": "1960-06-23",
+    "gender": "male",
+    "is_active": true,
+    "is_premium": true,
+    "email_verified": false,
+    "registration_date": "2025-03-23 02:34:32.786844",
+    "last_login": "2025-06-09 08:47:35.080081",
+    "shipping_address": {
+      "street": "597 Michelle Common Suite 302",
+      "city": "Port Marcus",
+      "state": "New York",
+      "postal_code": "58291",
+      "country": "SV",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "45565 Rodgers Summit",
+      "city": "Port Philip",
+      "state": "Louisiana",
+      "postal_code": "08267",
+      "country": "OM",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": false,
+      "marketing_emails": false,
+      "preferred_categories": [
+        "Sports",
+        "Clothing",
+        "Electronics"
+      ],
+      "language": "fr",
+      "currency": "USD",
+      "notifications": {
+        "order_updates": true,
+        "price_drops": true,
+        "new_arrivals": true
+      }
+    },
+    "stats": {
+      "orders_count": 49,
+      "total_spent": 2030.4,
+      "average_order_value": 41.44,
+      "last_login": "2025-06-09 08:47:35.080081",
+      "login_count": 119,
+      "wishlist_items": 15,
+      "cart_items": 4
+    },
+    "loyalty_points": 7512,
+    "referral_code": "REF000004",
+    "created_at": "2025-03-23 02:34:32.786844",
+    "updated_at": "2025-06-07 05:02:27.926264"
+  },
+  {
+    "id": 5,
+    "email": "lindsay.beck@gmail.com",
+    "username": "lindsay6773",
+    "first_name": "Lindsay",
+    "last_name": "Beck",
+    "phone": "001-285-454-9971x28632",
+    "date_of_birth": "1947-10-28",
+    "gender": "female",
+    "is_active": true,
+    "is_premium": false,
+    "email_verified": true,
+    "registration_date": "2023-10-31 01:32:10.188619",
+    "last_login": "2025-06-16 02:39:48.349467",
+    "shipping_address": {
+      "street": "44359 Samuel Gardens Suite 084",
+      "city": "Fishertown",
+      "state": "Maryland",
+      "postal_code": "18657",
+      "country": "TG",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "44359 Samuel Gardens Suite 084",
+      "city": "Fishertown",
+      "state": "Maryland",
+      "postal_code": "18657",
+      "country": "TG",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": false,
+      "marketing_emails": true,
+      "preferred_categories": [
+        "Electronics"
+      ],
+      "language": "es",
+      "currency": "USD",
+      "notifications": {
+        "order_updates": true,
+        "price_drops": true,
+        "new_arrivals": true
+      }
+    },
+    "stats": {
+      "orders_count": 0,
+      "total_spent": 0,
+      "average_order_value": 0,
+      "last_login": "2025-06-16 02:39:48.349467",
+      "login_count": 7,
+      "wishlist_items": 13,
+      "cart_items": 3
+    },
+    "loyalty_points": 935,
+    "referral_code": "REF000005",
+    "created_at": "2023-10-31 01:32:10.188619",
+    "updated_at": "2025-01-06 04:32:09.891461"
+  },
+  {
+    "id": 6,
+    "email": "tamara.lopez@yahoo.com",
+    "username": "tamara6061",
+    "first_name": "Tamara",
+    "last_name": "Lopez",
+    "phone": "521.295.4705x463",
+    "date_of_birth": "1979-05-29",
+    "gender": "female",
+    "is_active": true,
+    "is_premium": true,
+    "email_verified": false,
+    "registration_date": "2024-03-28 08:33:09.126410",
+    "last_login": "2025-06-10 15:21:12.293896",
+    "shipping_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": true,
+      "marketing_emails": false,
+      "preferred_categories": [
+        "Clothing",
+        "Electronics"
+      ],
+      "language": "de",
+      "currency": "EUR",
+      "notifications": {
+        "order_updates": true,
+        "price_drops": true,
+        "new_arrivals": true
+      }
+    },
+    "stats": {
+      "orders_count": 24,
+      "total_spent": 4110.61,
+      "average_order_value": 171.28,
+      "last_login": "2025-06-10 15:21:12.293896",
+      "login_count": 25,
+      "wishlist_items": 3,
+      "cart_items": 1
+    },
+    "loyalty_points": 1273,
+    "referral_code": "REF000006",
+    "created_at": "2024-03-28 08:33:09.126410",
+    "updated_at": "2025-05-15 21:43:33.482795"
+  },
+  {
+    "id": 7,
+    "email": "david.phillips@gmail.com",
+    "username": "david541",
+    "first_name": "David",
+    "last_name": "Phillips",
+    "phone": "(568)449-0172",
+    "date_of_birth": "1945-06-05",
+    "gender": "male",
+    "is_active": false,
+    "is_premium": false,
+    "email_verified": false,
+    "registration_date": "2024-10-19 03:01:49.576062",
+    "last_login": "2025-06-02 07:24:06.532357",
+    "shipping_address": {
+      "street": "85458 Morgan Ports",
+      "city": "North Travismouth",
+      "state": "North Dakota",
+      "postal_code": "90487",
+      "country": "CL",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "85458 Morgan Ports",
+      "city": "North Travismouth",
+      "state": "North Dakota",
+      "postal_code": "90487",
+      "country": "CL",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": false,
+      "marketing_emails": false,
+      "preferred_categories": [
+        "Electronics",
+        "Sports",
+        "Clothing"
+      ],
+      "language": "fr",
+      "currency": "GBP",
+      "notifications": {
+        "order_updates": false,
+        "price_drops": true,
+        "new_arrivals": false
+      }
+    },
+    "stats": {
+      "orders_count": 0,
+      "total_spent": 0,
+      "average_order_value": 0,
+      "last_login": "2025-06-02 07:24:06.532357",
+      "login_count": 6,
+      "wishlist_items": 15,
+      "cart_items": 0
+    },
+    "loyalty_points": 482,
+    "referral_code": "REF000007",
+    "created_at": "2024-10-19 03:01:49.576062",
+    "updated_at": "2025-05-01 04:21:56.201821"
+  },
+  {
+    "id": 8,
+    "email": "brittney.stephenson@gmail.com",
+    "username": "brittney652",
+    "first_name": "Brittney",
+    "last_name": "Stephenson",
+    "phone": "349-318-6958x860",
+    "date_of_birth": "1962-05-09",
+    "gender": "female",
+    "is_active": true,
+    "is_premium": true,
+    "email_verified": true,
+    "registration_date": "2025-06-11 03:44:34.270225",
+    "last_login": "2025-06-15 05:36:58.663226",
+    "shipping_address": {
+      "street": "0300 Wells Fields",
+      "city": "Davisport",
+      "state": "Vermont",
+      "postal_code": "08762",
+      "country": "KN",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "25508 Brown Plaza",
+      "city": "Rachelmouth",
+      "state": "North Carolina",
+      "postal_code": "05967",
+      "country": "AR",
+      "is_default": true
+    },
+    "preferences": {
+      "newsletter": false,
+      "marketing_emails": true,
+      "preferred_categories": [
+        "Clothing",
+        "Books"
+      ],
+      "language": "de",
+      "currency": "EUR",
+      "notifications": {
+        "order_updates": false,
+        "price_drops": true,
+        "new_arrivals": false
+      }
+    },
+    "stats": {
+      "orders_count": 31,
+      "total_spent": 3548.51,
+      "average_order_value": 114.47,
+      "last_login": "2025-06-15 05:36:58.663226",
+      "login_count": 137,
+      "wishlist_items": 11,
+      "cart_items": 4
+    },
+    "loyalty_points": 358,
+    "referral_code": "REF000008",
+    "created_at": "2025-06-11 03:44:34.270225",
+    "updated_at": "2025-06-17 22:41:20.847842"
+  }
+]

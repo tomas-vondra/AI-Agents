@@ -1,0 +1,2213 @@
+[
+  {
+    "id": 1,
+    "order_number": "ORD00000001",
+    "user_id": 1,
+    "user_email": "erin.roberts@hotmail.com",
+    "order_date": "2024-07-12 00:09:56.319334",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1444.8,
+        "discount_percentage": 0.2,
+        "total_price": 4334.4,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 4334.4,
+      "tax_amount": 346.75,
+      "shipping_cost": 20.58,
+      "total": 4701.73
+    },
+    "shipping_address": {
+      "street": "275 Ortiz Unions Apt. 747",
+      "city": "West Steve",
+      "state": "Mississippi",
+      "postal_code": "89531",
+      "country": "LU",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "275 Ortiz Unions Apt. 747",
+      "city": "West Steve",
+      "state": "Mississippi",
+      "postal_code": "89531",
+      "country": "LU",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "Ground",
+      "tracking_number": "UPS934955119",
+      "estimated_delivery": "2025-07-08",
+      "shipping_cost": 20.58
+    },
+    "payment_info": {
+      "method": "credit_card",
+      "amount": 4701.73,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN7811744661",
+      "processed_at": "2024-11-04 23:26:14.575985",
+      "card_type": "Mastercard",
+      "last_four": "5141"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2024-07-12 00:09:56.319334",
+        "note": "Order received"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-07-12 20:09:56.319334",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2024-07-14 09:09:56.319334",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2024-07-16 09:09:56.319334",
+        "note": "Package in transit"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2024-07-23 09:09:56.319334",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2024-07-12 00:09:56.319334",
+    "updated_at": "2024-07-23 09:09:56.319334"
+  },
+  {
+    "id": 2,
+    "order_number": "ORD00000002",
+    "user_id": 1,
+    "user_email": "erin.roberts@hotmail.com",
+    "order_date": "2025-06-13 01:59:04.266436",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 2,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 3612,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 3612,
+      "tax_amount": 288.96,
+      "shipping_cost": 23.39,
+      "total": 3924.35
+    },
+    "shipping_address": {
+      "street": "275 Ortiz Unions Apt. 747",
+      "city": "West Steve",
+      "state": "Mississippi",
+      "postal_code": "89531",
+      "country": "LU",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "275 Ortiz Unions Apt. 747",
+      "city": "West Steve",
+      "state": "Mississippi",
+      "postal_code": "89531",
+      "country": "LU",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "Ground",
+      "tracking_number": "UPS560469626",
+      "estimated_delivery": "2025-07-02",
+      "shipping_cost": 23.39
+    },
+    "payment_info": {
+      "method": "credit_card",
+      "amount": 3924.35,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN7023930033",
+      "processed_at": "2025-03-11 16:33:13.154077",
+      "card_type": "Mastercard",
+      "last_four": "4871"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-06-13 01:59:04.266436",
+        "note": "Payment pending"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-06-13 22:59:04.266436",
+        "note": "Order confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-06-14 05:59:04.266436",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-06-16 05:59:04.266436",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-06-19 05:59:04.266436",
+        "note": "Order completed"
+      }
+    ],
+    "notes": [
+      "Fragile items - handle with care",
+      "Customer requested expedited shipping"
+    ],
+    "created_at": "2025-06-13 01:59:04.266436",
+    "updated_at": "2025-06-19 05:59:04.266436"
+  },
+  {
+    "id": 3,
+    "order_number": "ORD00000003",
+    "user_id": 2,
+    "user_email": "anthony.vasquez@hotmail.com",
+    "order_date": "2025-06-28 02:43:06.357048",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 5418,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 5418,
+      "tax_amount": 433.44,
+      "shipping_cost": 29.53,
+      "total": 5880.97
+    },
+    "shipping_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "2-Day",
+      "tracking_number": "UPS221108971",
+      "estimated_delivery": "2025-07-09",
+      "shipping_cost": 29.53
+    },
+    "payment_info": {
+      "method": "credit_card",
+      "amount": 5880.97,
+      "currency": "USD",
+      "status": "failed",
+      "transaction_id": "TXN8177534102",
+      "processed_at": "2024-08-16 16:46:34.819908",
+      "card_type": "American Express",
+      "last_four": "3693"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-06-28 02:43:06.357048",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-06-29 01:43:06.357048",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-06-29 05:43:06.357048",
+        "note": "Preparing items"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-07-02 05:43:06.357048",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-07-07 05:43:06.357048",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-06-28 02:43:06.357048",
+    "updated_at": "2025-07-07 05:43:06.357048"
+  },
+  {
+    "id": 4,
+    "order_number": "ORD00000004",
+    "user_id": 2,
+    "user_email": "anthony.vasquez@hotmail.com",
+    "order_date": "2025-02-11 02:06:36.073391",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 5418,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 5418,
+      "tax_amount": 433.44,
+      "shipping_cost": 8.76,
+      "total": 5860.2
+    },
+    "shipping_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "DHL",
+      "service": "2-Day",
+      "tracking_number": "DHL168626104",
+      "estimated_delivery": "2025-07-07",
+      "shipping_cost": 8.76
+    },
+    "payment_info": {
+      "method": "apple_pay",
+      "amount": 5860.2,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN3535903801",
+      "processed_at": "2025-03-15 07:14:18.026292"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-02-11 02:06:36.073391",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-02-11 11:06:36.073391",
+        "note": "Payment confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-02-13 11:06:36.073391",
+        "note": "Preparing items"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-02-16 11:06:36.073391",
+        "note": "Package in transit"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-02-18 11:06:36.073391",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-02-11 02:06:36.073391",
+    "updated_at": "2025-02-18 11:06:36.073391"
+  },
+  {
+    "id": 5,
+    "order_number": "ORD00000005",
+    "user_id": 2,
+    "user_email": "anthony.vasquez@hotmail.com",
+    "order_date": "2025-02-10 03:09:36.185105",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 2,
+        "unit_price": 1806,
+        "discounted_price": 1553.16,
+        "discount_percentage": 0.14,
+        "total_price": 3106.32,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 3106.32,
+      "tax_amount": 248.51,
+      "shipping_cost": 28.57,
+      "total": 3383.4
+    },
+    "shipping_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "Amazon Logistics",
+      "service": "Next Day",
+      "tracking_number": "AMA683063128",
+      "estimated_delivery": "2025-07-07",
+      "shipping_cost": 28.57
+    },
+    "payment_info": {
+      "method": "apple_pay",
+      "amount": 3383.4,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN2151011749",
+      "processed_at": "2025-02-04 18:34:50.720747"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-02-10 03:09:36.185105",
+        "note": "Order received"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-02-10 21:09:36.185105",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-02-12 18:09:36.185105",
+        "note": "Preparing items"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-02-15 18:09:36.185105",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-02-20 18:09:36.185105",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-02-10 03:09:36.185105",
+    "updated_at": "2025-02-20 18:09:36.185105"
+  },
+  {
+    "id": 6,
+    "order_number": "ORD00000006",
+    "user_id": 2,
+    "user_email": "anthony.vasquez@hotmail.com",
+    "order_date": "2025-01-29 22:32:34.413857",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 1,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 1806,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 1806,
+      "tax_amount": 144.48,
+      "shipping_cost": 23.27,
+      "total": 1973.75
+    },
+    "shipping_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "USPS",
+      "service": "Next Day",
+      "tracking_number": "USP772982108",
+      "estimated_delivery": "2025-07-09",
+      "shipping_cost": 23.27
+    },
+    "payment_info": {
+      "method": "google_pay",
+      "amount": 1973.75,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN7501413660",
+      "processed_at": "2024-07-31 01:45:23.079388"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-01-29 22:32:34.413857",
+        "note": "Payment pending"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-01-30 20:32:34.413857",
+        "note": "Order confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-01-31 11:32:34.413857",
+        "note": "Preparing items"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-02-01 11:32:34.413857",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-02-05 11:32:34.413857",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [
+      "Gift wrapping requested",
+      "Business address - deliver during office hours"
+    ],
+    "created_at": "2025-01-29 22:32:34.413857",
+    "updated_at": "2025-02-05 11:32:34.413857"
+  },
+  {
+    "id": 7,
+    "order_number": "ORD00000007",
+    "user_id": 2,
+    "user_email": "anthony.vasquez@hotmail.com",
+    "order_date": "2024-07-24 09:07:22.615850",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 2,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 3612,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 3612,
+      "tax_amount": 288.96,
+      "shipping_cost": 27.59,
+      "total": 3928.55
+    },
+    "shipping_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "USPS",
+      "service": "Express",
+      "tracking_number": "USP627940874",
+      "estimated_delivery": "2025-06-30",
+      "shipping_cost": 27.59
+    },
+    "payment_info": {
+      "method": "apple_pay",
+      "amount": 3928.55,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN2441701898",
+      "processed_at": "2025-06-08 20:05:41.586875"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2024-07-24 09:07:22.615850",
+        "note": "Payment pending"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-07-25 00:07:22.615850",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2024-07-26 06:07:22.615850",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2024-07-27 06:07:22.615850",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2024-07-31 06:07:22.615850",
+        "note": "Delivery confirmed"
+      }
+    ],
+    "notes": [],
+    "created_at": "2024-07-24 09:07:22.615850",
+    "updated_at": "2024-07-31 06:07:22.615850"
+  },
+  {
+    "id": 8,
+    "order_number": "ORD00000008",
+    "user_id": 2,
+    "user_email": "anthony.vasquez@hotmail.com",
+    "order_date": "2025-01-16 03:41:03.887762",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 5418,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 5418,
+      "tax_amount": 433.44,
+      "shipping_cost": 19.28,
+      "total": 5870.72
+    },
+    "shipping_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "650 Gray Pike Suite 614",
+      "city": "Erinchester",
+      "state": "Kentucky",
+      "postal_code": "44395",
+      "country": "DO",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "2-Day",
+      "tracking_number": "UPS578609105",
+      "estimated_delivery": "2025-07-03",
+      "shipping_cost": 19.28
+    },
+    "payment_info": {
+      "method": "apple_pay",
+      "amount": 5870.72,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN6166678507",
+      "processed_at": "2025-05-17 04:49:39.944561"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-01-16 03:41:03.887762",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-01-16 11:41:03.887762",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-01-17 09:41:03.887762",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-01-20 09:41:03.887762",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-01-24 09:41:03.887762",
+        "note": "Order completed"
+      }
+    ],
+    "notes": [
+      "Delivery to front door"
+    ],
+    "created_at": "2025-01-16 03:41:03.887762",
+    "updated_at": "2025-01-24 09:41:03.887762"
+  },
+  {
+    "id": 9,
+    "order_number": "ORD00000009",
+    "user_id": 3,
+    "user_email": "david.jones@hotmail.com",
+    "order_date": "2024-08-05 02:30:33.597029",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 1,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 1806,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 1806,
+      "tax_amount": 144.48,
+      "shipping_cost": 8.09,
+      "total": 1958.57
+    },
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "USPS",
+      "service": "Ground",
+      "tracking_number": "USP532635446",
+      "estimated_delivery": "2025-07-06",
+      "shipping_cost": 8.09
+    },
+    "payment_info": {
+      "method": "google_pay",
+      "amount": 1958.57,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN5080554107",
+      "processed_at": "2024-07-26 13:24:59.981603"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2024-08-05 02:30:33.597029",
+        "note": "Payment pending"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-08-06 00:30:33.597029",
+        "note": "Order confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2024-08-06 03:30:33.597029",
+        "note": "Preparing items"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2024-08-07 03:30:33.597029",
+        "note": "Package in transit"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2024-08-11 03:30:33.597029",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [
+      "Leave with neighbor if not home"
+    ],
+    "created_at": "2024-08-05 02:30:33.597029",
+    "updated_at": "2024-08-11 03:30:33.597029"
+  },
+  {
+    "id": 10,
+    "order_number": "ORD00000010",
+    "user_id": 3,
+    "user_email": "david.jones@hotmail.com",
+    "order_date": "2025-01-14 01:01:10.799605",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 5418,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 5418,
+      "tax_amount": 433.44,
+      "shipping_cost": 19.44,
+      "total": 5870.88
+    },
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "Next Day",
+      "tracking_number": "UPS792839967",
+      "estimated_delivery": "2025-07-02",
+      "shipping_cost": 19.44
+    },
+    "payment_info": {
+      "method": "paypal",
+      "amount": 5870.88,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN4884356598",
+      "processed_at": "2024-07-03 19:56:45.974745",
+      "paypal_transaction_id": "PAY797064968"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-01-14 01:01:10.799605",
+        "note": "Order received"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-01-14 19:01:10.799605",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-01-15 16:01:10.799605",
+        "note": "Preparing items"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-01-18 16:01:10.799605",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-01-25 16:01:10.799605",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-01-14 01:01:10.799605",
+    "updated_at": "2025-01-25 16:01:10.799605"
+  },
+  {
+    "id": 11,
+    "order_number": "ORD00000011",
+    "user_id": 3,
+    "user_email": "david.jones@hotmail.com",
+    "order_date": "2024-11-12 03:19:40.706630",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 2,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 3612,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 3612,
+      "tax_amount": 288.96,
+      "shipping_cost": 26.57,
+      "total": 3927.53
+    },
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "Amazon Logistics",
+      "service": "Ground",
+      "tracking_number": "AMA399418636",
+      "estimated_delivery": "2025-07-07",
+      "shipping_cost": 26.57
+    },
+    "payment_info": {
+      "method": "credit_card",
+      "amount": 3927.53,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN8210853584",
+      "processed_at": "2024-09-03 22:19:16.830306",
+      "card_type": "Visa",
+      "last_four": "7101"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2024-11-12 03:19:40.706630",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-11-12 18:19:40.706630",
+        "note": "Payment confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2024-11-14 09:19:40.706630",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2024-11-16 09:19:40.706630",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2024-11-21 09:19:40.706630",
+        "note": "Delivery confirmed"
+      }
+    ],
+    "notes": [
+      "Leave with neighbor if not home",
+      "Gift wrapping requested"
+    ],
+    "created_at": "2024-11-12 03:19:40.706630",
+    "updated_at": "2024-11-21 09:19:40.706630"
+  },
+  {
+    "id": 12,
+    "order_number": "ORD00000012",
+    "user_id": 3,
+    "user_email": "david.jones@hotmail.com",
+    "order_date": "2025-05-25 21:14:05.306071",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 5418,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 5418,
+      "tax_amount": 433.44,
+      "shipping_cost": 21.66,
+      "total": 5873.1
+    },
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "DHL",
+      "service": "Ground",
+      "tracking_number": "DHL909675840",
+      "estimated_delivery": "2025-07-07",
+      "shipping_cost": 21.66
+    },
+    "payment_info": {
+      "method": "credit_card",
+      "amount": 5873.1,
+      "currency": "USD",
+      "status": "failed",
+      "transaction_id": "TXN5078688024",
+      "processed_at": "2024-12-25 06:48:39.430300",
+      "card_type": "Visa",
+      "last_four": "9384"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-25 21:14:05.306071",
+        "note": "Order received"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-05-26 05:14:05.306071",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-05-27 08:14:05.306071",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-05-29 08:14:05.306071",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-06-02 08:14:05.306071",
+        "note": "Order completed"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-05-25 21:14:05.306071",
+    "updated_at": "2025-06-02 08:14:05.306071"
+  },
+  {
+    "id": 13,
+    "order_number": "ORD00000013",
+    "user_id": 3,
+    "user_email": "david.jones@hotmail.com",
+    "order_date": "2025-05-04 16:46:58.152575",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1444.8,
+        "discount_percentage": 0.2,
+        "total_price": 4334.4,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 4334.4,
+      "tax_amount": 346.75,
+      "shipping_cost": 26.56,
+      "total": 4707.71
+    },
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "Standard",
+      "tracking_number": "UPS641173673",
+      "estimated_delivery": "2025-07-04",
+      "shipping_cost": 26.56
+    },
+    "payment_info": {
+      "method": "credit_card",
+      "amount": 4707.71,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN7157400058",
+      "processed_at": "2025-06-10 08:29:50.154931",
+      "card_type": "Visa",
+      "last_four": "1035"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-04 16:46:58.152575",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-05-04 23:46:58.152575",
+        "note": "Order confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-05-06 10:46:58.152575",
+        "note": "Packaging in progress"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-05-07 10:46:58.152575",
+        "note": "Package in transit"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-05-13 10:46:58.152575",
+        "note": "Delivery confirmed"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-05-04 16:46:58.152575",
+    "updated_at": "2025-05-13 10:46:58.152575"
+  },
+  {
+    "id": 14,
+    "order_number": "ORD00000014",
+    "user_id": 3,
+    "user_email": "david.jones@hotmail.com",
+    "order_date": "2025-01-20 23:03:53.593778",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 2,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 3612,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 3612,
+      "tax_amount": 288.96,
+      "shipping_cost": 22.36,
+      "total": 3923.32
+    },
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "Standard",
+      "tracking_number": "UPS786283034",
+      "estimated_delivery": "2025-06-30",
+      "shipping_cost": 22.36
+    },
+    "payment_info": {
+      "method": "apple_pay",
+      "amount": 3923.32,
+      "currency": "USD",
+      "status": "failed",
+      "transaction_id": "TXN3821130053",
+      "processed_at": "2024-10-17 07:08:01.050873"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-01-20 23:03:53.593778",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-01-21 14:03:53.593778",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-01-22 23:03:53.593778",
+        "note": "Packaging in progress"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-01-25 23:03:53.593778",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-01-28 23:03:53.593778",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [
+      "Business address - deliver during office hours"
+    ],
+    "created_at": "2025-01-20 23:03:53.593778",
+    "updated_at": "2025-01-28 23:03:53.593778"
+  },
+  {
+    "id": 15,
+    "order_number": "ORD00000015",
+    "user_id": 3,
+    "user_email": "david.jones@hotmail.com",
+    "order_date": "2025-04-13 01:41:37.833252",
+    "status": "pending",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "DigitalMax Keyboard",
+        "quantity": 3,
+        "unit_price": 1806,
+        "discounted_price": 1806,
+        "discount_percentage": 0,
+        "total_price": 5418,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 5418,
+      "tax_amount": 433.44,
+      "shipping_cost": 13.19,
+      "total": 5864.63
+    },
+    "shipping_address": {
+      "street": "3888 Connie Lane",
+      "city": "South Jeffreyberg",
+      "state": "Delaware",
+      "postal_code": "14199",
+      "country": "ER",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "2067 Michael Garden Suite 819",
+      "city": "West Jermaineshire",
+      "state": "Mississippi",
+      "postal_code": "35704",
+      "country": "ML",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "2-Day",
+      "tracking_number": "UPS801941069",
+      "estimated_delivery": "2025-07-03",
+      "shipping_cost": 13.19
+    },
+    "payment_info": {
+      "method": "paypal",
+      "amount": 5864.63,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN3591449159",
+      "processed_at": "2025-03-09 23:11:03.795163",
+      "paypal_transaction_id": "PAY190698468"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-04-13 01:41:37.833252",
+        "note": "Awaiting confirmation"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-04-13 01:41:37.833252",
+    "updated_at": "2025-04-13 01:41:37.833252"
+  },
+  {
+    "id": 16,
+    "order_number": "ORD00000016",
+    "user_id": 6,
+    "user_email": "tamara.lopez@yahoo.com",
+    "order_date": "2024-12-30 13:52:23.069990",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "ProGear Tablet",
+        "quantity": 3,
+        "unit_price": 480,
+        "discounted_price": 480,
+        "discount_percentage": 0,
+        "total_price": 1440,
+        "sku": "ELE-000002",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 1440,
+      "tax_amount": 115.2,
+      "shipping_cost": 22.01,
+      "total": 1577.21
+    },
+    "shipping_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "USPS",
+      "service": "Next Day",
+      "tracking_number": "USP639449332",
+      "estimated_delivery": "2025-07-07",
+      "shipping_cost": 22.01
+    },
+    "payment_info": {
+      "method": "google_pay",
+      "amount": 1577.21,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN6259966020",
+      "processed_at": "2025-01-15 13:09:36.693150"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2024-12-30 13:52:23.069990",
+        "note": "Order received"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-12-31 12:52:23.069990",
+        "note": "Payment confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-01-01 08:52:23.069990",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-01-04 08:52:23.069990",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-01-06 08:52:23.069990",
+        "note": "Delivery confirmed"
+      }
+    ],
+    "notes": [
+      "Leave with neighbor if not home",
+      "Fragile items - handle with care"
+    ],
+    "created_at": "2024-12-30 13:52:23.069990",
+    "updated_at": "2025-01-06 08:52:23.069990"
+  },
+  {
+    "id": 17,
+    "order_number": "ORD00000017",
+    "user_id": 6,
+    "user_email": "tamara.lopez@yahoo.com",
+    "order_date": "2024-07-28 06:03:03.770787",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "InsightPublishing Mystery",
+        "quantity": 3,
+        "unit_price": 46.5,
+        "discounted_price": 46.5,
+        "discount_percentage": 0,
+        "total_price": 139.5,
+        "sku": "BOO-000012",
+        "category": "Books"
+      },
+      {
+        "product_id": 4,
+        "product_name": "FutureTech Smartphone",
+        "quantity": 3,
+        "unit_price": 1017,
+        "discounted_price": 1017,
+        "discount_percentage": 0,
+        "total_price": 3051,
+        "sku": "ELE-000004",
+        "category": "Electronics"
+      },
+      {
+        "product_id": 7,
+        "product_name": "UrbanWear Jeans",
+        "quantity": 2,
+        "unit_price": 25.0,
+        "discounted_price": 25.0,
+        "discount_percentage": 0,
+        "total_price": 50.0,
+        "sku": "CLO-000007",
+        "category": "Clothing"
+      },
+      {
+        "product_id": 1,
+        "product_name": "FutureTech Laptop",
+        "quantity": 2,
+        "unit_price": 2366,
+        "discounted_price": 2366,
+        "discount_percentage": 0,
+        "total_price": 4732,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      },
+      {
+        "product_id": 18,
+        "product_name": "PowerSport Tennis Racket",
+        "quantity": 3,
+        "unit_price": 252,
+        "discounted_price": 209.16,
+        "discount_percentage": 0.17,
+        "total_price": 627.48,
+        "sku": "SPO-000018",
+        "category": "Sports"
+      }
+    ],
+    "totals": {
+      "subtotal": 8599.98,
+      "tax_amount": 688.0,
+      "shipping_cost": 6.6,
+      "total": 9294.58
+    },
+    "shipping_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "Amazon Logistics",
+      "service": "Standard",
+      "tracking_number": "AMA709137503",
+      "estimated_delivery": "2025-07-05",
+      "shipping_cost": 6.6
+    },
+    "payment_info": {
+      "method": "paypal",
+      "amount": 9294.58,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN7458489339",
+      "processed_at": "2025-01-24 21:34:01.145466",
+      "paypal_transaction_id": "PAY661678632"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2024-07-28 06:03:03.770787",
+        "note": "Order received"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-07-29 03:03:03.770787",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2024-07-29 11:03:03.770787",
+        "note": "Packaging in progress"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2024-08-01 11:03:03.770787",
+        "note": "Package in transit"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2024-08-04 11:03:03.770787",
+        "note": "Delivery confirmed"
+      }
+    ],
+    "notes": [],
+    "created_at": "2024-07-28 06:03:03.770787",
+    "updated_at": "2024-08-04 11:03:03.770787"
+  },
+  {
+    "id": 18,
+    "order_number": "ORD00000018",
+    "user_id": 6,
+    "user_email": "tamara.lopez@yahoo.com",
+    "order_date": "2025-03-17 06:09:20.361858",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "FutureTech Smartphone",
+        "quantity": 2,
+        "unit_price": 1017,
+        "discounted_price": 1017,
+        "discount_percentage": 0,
+        "total_price": 2034,
+        "sku": "ELE-000004",
+        "category": "Electronics"
+      },
+      {
+        "product_id": 1,
+        "product_name": "FutureTech Laptop",
+        "quantity": 2,
+        "unit_price": 2366,
+        "discounted_price": 2366,
+        "discount_percentage": 0,
+        "total_price": 4732,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      },
+      {
+        "product_id": 11,
+        "product_name": "BrightMinds Programming Guide",
+        "quantity": 2,
+        "unit_price": 39.0,
+        "discounted_price": 39.0,
+        "discount_percentage": 0,
+        "total_price": 78.0,
+        "sku": "BOO-000011",
+        "category": "Books"
+      }
+    ],
+    "totals": {
+      "subtotal": 6844.0,
+      "tax_amount": 547.52,
+      "shipping_cost": 7.17,
+      "total": 7398.69
+    },
+    "shipping_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "08594 Mitchell Island Apt. 078",
+      "city": "South Samanthahaven",
+      "state": "Missouri",
+      "postal_code": "80411",
+      "country": "LC",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "FedEx",
+      "service": "Ground",
+      "tracking_number": "FED849012005",
+      "estimated_delivery": "2025-07-09",
+      "shipping_cost": 7.17
+    },
+    "payment_info": {
+      "method": "paypal",
+      "amount": 7398.69,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN9049297516",
+      "processed_at": "2024-07-10 16:11:14.435132",
+      "paypal_transaction_id": "PAY736963706"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-03-17 06:09:20.361858",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-03-17 20:09:20.361858",
+        "note": "Payment confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-03-19 07:09:20.361858",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-03-21 07:09:20.361858",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-03-28 07:09:20.361858",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-03-17 06:09:20.361858",
+    "updated_at": "2025-03-28 07:09:20.361858"
+  },
+  {
+    "id": 19,
+    "order_number": "ORD00000019",
+    "user_id": 8,
+    "user_email": "brittney.stephenson@gmail.com",
+    "order_date": "2025-02-09 05:58:47.428243",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "FutureTech Laptop",
+        "quantity": 2,
+        "unit_price": 2366,
+        "discounted_price": 2366,
+        "discount_percentage": 0,
+        "total_price": 4732,
+        "sku": "ELE-000001",
+        "category": "Electronics"
+      }
+    ],
+    "totals": {
+      "subtotal": 4732,
+      "tax_amount": 378.56,
+      "shipping_cost": 13.62,
+      "total": 5124.18
+    },
+    "shipping_address": {
+      "street": "0300 Wells Fields",
+      "city": "Davisport",
+      "state": "Vermont",
+      "postal_code": "08762",
+      "country": "KN",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "25508 Brown Plaza",
+      "city": "Rachelmouth",
+      "state": "North Carolina",
+      "postal_code": "05967",
+      "country": "AR",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "USPS",
+      "service": "Express",
+      "tracking_number": "USP274886198",
+      "estimated_delivery": "2025-07-05",
+      "shipping_cost": 13.62
+    },
+    "payment_info": {
+      "method": "google_pay",
+      "amount": 5124.18,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN4915384690",
+      "processed_at": "2024-10-10 03:10:18.925173"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-02-09 05:58:47.428243",
+        "note": "Order received"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-02-09 13:58:47.428243",
+        "note": "Payment confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-02-11 01:58:47.428243",
+        "note": "Packaging in progress"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-02-13 01:58:47.428243",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-02-15 01:58:47.428243",
+        "note": "Order completed"
+      },
+      {
+        "status": "returned",
+        "timestamp": "2025-02-25 01:58:47.428243",
+        "note": "Refund processed"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-02-09 05:58:47.428243",
+    "updated_at": "2025-02-25 01:58:47.428243"
+  },
+  {
+    "id": 20,
+    "order_number": "ORD00000020",
+    "user_id": 8,
+    "user_email": "brittney.stephenson@gmail.com",
+    "order_date": "2025-05-08 13:04:21.851874",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 52,
+        "product_name": "AthleticEdge Tennis Racket",
+        "quantity": 2,
+        "unit_price": 157,
+        "discounted_price": 144.44,
+        "discount_percentage": 0.08,
+        "total_price": 288.88,
+        "sku": "SPO-000052",
+        "category": "Sports"
+      },
+      {
+        "product_id": 16,
+        "product_name": "QualityHome Bedding Max",
+        "quantity": 1,
+        "unit_price": 411,
+        "discounted_price": 300.03,
+        "discount_percentage": 0.27,
+        "total_price": 300.03,
+        "sku": "HOM-000016",
+        "category": "Home & Garden"
+      }
+    ],
+    "totals": {
+      "subtotal": 588.91,
+      "tax_amount": 47.11,
+      "shipping_cost": 25.63,
+      "total": 661.65
+    },
+    "shipping_address": {
+      "street": "0300 Wells Fields",
+      "city": "Davisport",
+      "state": "Vermont",
+      "postal_code": "08762",
+      "country": "KN",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "25508 Brown Plaza",
+      "city": "Rachelmouth",
+      "state": "North Carolina",
+      "postal_code": "05967",
+      "country": "AR",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "2-Day",
+      "tracking_number": "UPS269885044",
+      "estimated_delivery": "2025-07-09",
+      "shipping_cost": 25.63
+    },
+    "payment_info": {
+      "method": "credit_card",
+      "amount": 661.65,
+      "currency": "USD",
+      "status": "failed",
+      "transaction_id": "TXN4262016608",
+      "processed_at": "2025-02-15 01:19:30.701687",
+      "card_type": "Visa",
+      "last_four": "8152"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-05-08 13:04:21.851874",
+        "note": "Awaiting confirmation"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-05-08 14:04:21.851874",
+        "note": "Payment confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-05-09 12:04:21.851874",
+        "note": "Preparing items"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-05-10 12:04:21.851874",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-05-12 12:04:21.851874",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-05-08 13:04:21.851874",
+    "updated_at": "2025-05-12 12:04:21.851874"
+  },
+  {
+    "id": 21,
+    "order_number": "ORD00000021",
+    "user_id": 8,
+    "user_email": "brittney.stephenson@gmail.com",
+    "order_date": "2025-03-01 10:57:59.766925",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "InnoCore Smartwatch",
+        "quantity": 1,
+        "unit_price": 1134,
+        "discounted_price": 1134,
+        "discount_percentage": 0,
+        "total_price": 1134,
+        "sku": "ELE-000029",
+        "category": "Electronics"
+      },
+      {
+        "product_id": 50,
+        "product_name": "AthleticEdge Water Bottle",
+        "quantity": 2,
+        "unit_price": 202,
+        "discounted_price": 202,
+        "discount_percentage": 0,
+        "total_price": 404,
+        "sku": "SPO-000050",
+        "category": "Sports"
+      },
+      {
+        "product_id": 9,
+        "product_name": "KnowledgeHub Programming Guide Elite",
+        "quantity": 3,
+        "unit_price": 14.5,
+        "discounted_price": 10.88,
+        "discount_percentage": 0.25,
+        "total_price": 32.64,
+        "sku": "BOO-000009",
+        "category": "Books"
+      }
+    ],
+    "totals": {
+      "subtotal": 1570.64,
+      "tax_amount": 125.65,
+      "shipping_cost": 7.39,
+      "total": 1703.68
+    },
+    "shipping_address": {
+      "street": "0300 Wells Fields",
+      "city": "Davisport",
+      "state": "Vermont",
+      "postal_code": "08762",
+      "country": "KN",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "25508 Brown Plaza",
+      "city": "Rachelmouth",
+      "state": "North Carolina",
+      "postal_code": "05967",
+      "country": "AR",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "UPS",
+      "service": "Express",
+      "tracking_number": "UPS336292478",
+      "estimated_delivery": "2025-07-04",
+      "shipping_cost": 7.39
+    },
+    "payment_info": {
+      "method": "debit_card",
+      "amount": 1703.68,
+      "currency": "USD",
+      "status": "failed",
+      "transaction_id": "TXN1006260934",
+      "processed_at": "2025-03-08 13:34:33.296403"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-03-01 10:57:59.766925",
+        "note": "Payment pending"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-03-01 17:57:59.766925",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-03-03 08:57:59.766925",
+        "note": "Packaging in progress"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-03-06 08:57:59.766925",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-03-12 08:57:59.766925",
+        "note": "Order completed"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-03-01 10:57:59.766925",
+    "updated_at": "2025-03-12 08:57:59.766925"
+  },
+  {
+    "id": 22,
+    "order_number": "ORD00000022",
+    "user_id": 8,
+    "user_email": "brittney.stephenson@gmail.com",
+    "order_date": "2024-10-18 04:37:06.035447",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 43,
+        "product_name": "LearningPress History Elite",
+        "quantity": 3,
+        "unit_price": 30.5,
+        "discounted_price": 30.5,
+        "discount_percentage": 0,
+        "total_price": 91.5,
+        "sku": "BOO-000043",
+        "category": "Books"
+      },
+      {
+        "product_id": 41,
+        "product_name": "InsightPublishing History",
+        "quantity": 2,
+        "unit_price": 31.5,
+        "discounted_price": 31.5,
+        "discount_percentage": 0,
+        "total_price": 63.0,
+        "sku": "BOO-000041",
+        "category": "Books"
+      },
+      {
+        "product_id": 15,
+        "product_name": "EverydayLiving Storage Box Ultra",
+        "quantity": 2,
+        "unit_price": 201,
+        "discounted_price": 201,
+        "discount_percentage": 0,
+        "total_price": 402,
+        "sku": "HOM-000015",
+        "category": "Home & Garden"
+      }
+    ],
+    "totals": {
+      "subtotal": 556.5,
+      "tax_amount": 44.52,
+      "shipping_cost": 24.67,
+      "total": 625.69
+    },
+    "shipping_address": {
+      "street": "0300 Wells Fields",
+      "city": "Davisport",
+      "state": "Vermont",
+      "postal_code": "08762",
+      "country": "KN",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "25508 Brown Plaza",
+      "city": "Rachelmouth",
+      "state": "North Carolina",
+      "postal_code": "05967",
+      "country": "AR",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "Amazon Logistics",
+      "service": "Express",
+      "tracking_number": "AMA348442444",
+      "estimated_delivery": "2025-07-07",
+      "shipping_cost": 24.67
+    },
+    "payment_info": {
+      "method": "paypal",
+      "amount": 625.69,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN5398330271",
+      "processed_at": "2025-06-18 12:23:56.383495",
+      "paypal_transaction_id": "PAY140003231"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2024-10-18 04:37:06.035447",
+        "note": "Payment pending"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-10-18 10:37:06.035447",
+        "note": "Processing started"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2024-10-19 13:37:06.035447",
+        "note": "Items collected"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2024-10-22 13:37:06.035447",
+        "note": "Tracking number assigned"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2024-10-24 13:37:06.035447",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2024-10-18 04:37:06.035447",
+    "updated_at": "2024-10-24 13:37:06.035447"
+  },
+  {
+    "id": 23,
+    "order_number": "ORD00000023",
+    "user_id": 8,
+    "user_email": "brittney.stephenson@gmail.com",
+    "order_date": "2025-02-19 20:23:49.974038",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "CasualPlus Dress",
+        "quantity": 1,
+        "unit_price": 28.5,
+        "discounted_price": 28.5,
+        "discount_percentage": 0,
+        "total_price": 28.5,
+        "sku": "CLO-000033",
+        "category": "Clothing"
+      },
+      {
+        "product_id": 39,
+        "product_name": "DeepThought Biography Ultra",
+        "quantity": 1,
+        "unit_price": 41.5,
+        "discounted_price": 41.5,
+        "discount_percentage": 0,
+        "total_price": 41.5,
+        "sku": "BOO-000039",
+        "category": "Books"
+      },
+      {
+        "product_id": 52,
+        "product_name": "AthleticEdge Tennis Racket",
+        "quantity": 2,
+        "unit_price": 157,
+        "discounted_price": 157,
+        "discount_percentage": 0,
+        "total_price": 314,
+        "sku": "SPO-000052",
+        "category": "Sports"
+      },
+      {
+        "product_id": 37,
+        "product_name": "UrbanWear Jeans Ultra",
+        "quantity": 2,
+        "unit_price": 97,
+        "discounted_price": 97,
+        "discount_percentage": 0,
+        "total_price": 194,
+        "sku": "CLO-000037",
+        "category": "Clothing"
+      },
+      {
+        "product_id": 47,
+        "product_name": "PracticalLiving Lamp",
+        "quantity": 3,
+        "unit_price": 144,
+        "discounted_price": 144,
+        "discount_percentage": 0,
+        "total_price": 432,
+        "sku": "HOM-000047",
+        "category": "Home & Garden"
+      }
+    ],
+    "totals": {
+      "subtotal": 1010.0,
+      "tax_amount": 80.8,
+      "shipping_cost": 17.8,
+      "total": 1108.6
+    },
+    "shipping_address": {
+      "street": "0300 Wells Fields",
+      "city": "Davisport",
+      "state": "Vermont",
+      "postal_code": "08762",
+      "country": "KN",
+      "is_default": true
+    },
+    "billing_address": {
+      "street": "25508 Brown Plaza",
+      "city": "Rachelmouth",
+      "state": "North Carolina",
+      "postal_code": "05967",
+      "country": "AR",
+      "is_default": true
+    },
+    "shipping_info": {
+      "carrier": "DHL",
+      "service": "Ground",
+      "tracking_number": "DHL966079457",
+      "estimated_delivery": "2025-07-09",
+      "shipping_cost": 17.8
+    },
+    "payment_info": {
+      "method": "apple_pay",
+      "amount": 1108.6,
+      "currency": "USD",
+      "status": "completed",
+      "transaction_id": "TXN2648750826",
+      "processed_at": "2025-04-27 19:49:49.156844"
+    },
+    "status_history": [
+      {
+        "status": "pending",
+        "timestamp": "2025-02-19 20:23:49.974038",
+        "note": "Payment pending"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2025-02-20 17:23:49.974038",
+        "note": "Order confirmed"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-02-22 17:23:49.974038",
+        "note": "Packaging in progress"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-02-24 17:23:49.974038",
+        "note": "Order shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-03-03 17:23:49.974038",
+        "note": "Package delivered"
+      }
+    ],
+    "notes": [],
+    "created_at": "2025-02-19 20:23:49.974038",
+    "updated_at": "2025-03-03 17:23:49.974038"
+  }
+]
